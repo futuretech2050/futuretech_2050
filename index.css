@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.top-menu {
+    background-color: honeydew;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: medium;
+    font-style: italic;
+    
+}
+
+.top-menu > div {
+    margin-left:100px;
+}
+
+.top-menu > div > a {
+text-decoration: none;
+font-size: 16px;
+color: black;
+font-weight: bold;
+}
+
+.bg-img {
+    background-image: url(Digital_home.png);
+    height: 480px;
+    width:100%;
+    
+}
+
+.bg-text {
+    width: 100%;
+    font-size: 3em;
+    color: #d5e7e2;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.future-trends {
+    padding-top: 50px;
+    background-image: linear-gradient(#ddd6f3 , #faaca8);
+    height: 100%;
+}
+
+.future-trends-division {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.future-trends-item {
+    display: flex;
+     justify-content: flex-start;
+      margin-left: 30px;
+}
+
+.future-trends-item-2 {
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 30px;
+}
+.future-innovators {
+    padding-top: 50px;
+    background-image: linear-gradient(#ffd89b , #19547b);
+    height: 100%;
+}
+
+ul > li {
+    margin-top: 20px;
+}
+
+.feedback-form {
+    background-image: linear-gradient(#ddd6f3 , #faaca8);
+    height: 100%;
+    padding-top: 50px;
+}
+
+.form-control {  
+    
+    border: none;
+    height: 30px;
+    background: transparent;
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+    
+    
+    
+}
+
+.form-control:hover {
+    border: none;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form-style {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
